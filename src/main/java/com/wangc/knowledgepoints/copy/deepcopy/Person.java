@@ -46,6 +46,7 @@ public class Person implements Cloneable{
     protected Object clone() throws CloneNotSupportedException {
         Person p = (Person) super.clone();
         p.address = (Address) address.clone();
-        return super.clone();
+//        return super.clone();
+        return p;
     }
 }
