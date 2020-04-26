@@ -13,3 +13,6 @@ Java知识点
 
 4.proxy
 代理：静态代理、动态代理（jdk代理、cglib代理）
+
+5.thread
+线程
