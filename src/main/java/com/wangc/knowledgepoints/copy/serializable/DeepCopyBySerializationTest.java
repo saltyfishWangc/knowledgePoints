@@ -1,7 +1,5 @@
 package com.wangc.knowledgepoints.copy.serializable;
 
-import sun.lwawt.macosx.CSystemTray;
-
 import java.io.*;
 
 /**
