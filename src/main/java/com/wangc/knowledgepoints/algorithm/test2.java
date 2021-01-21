@@ -16,18 +16,24 @@ public class test2 {
     public static void forScore(){
 //        int[] es = {1,2,4,5,4,6,2,3,5};
 //        int result = 8;
-        int[] es = {30000,2500,4000,5500,1400,6000,20000,35000,5800};
-        int result = 36500;
+//        int[] es = {30000,2500,4000,5500,1400,6000,20000,35000,5800};
+//        int result = 36500;
+//
+//        List<List<Integer>> list = count(es, 0, -1, result);
+//        System.out.println(list);
+//
+//        for(List<Integer> l:list){
+//            for(Integer i:l){
+//                System.out.print(es[i]+",");
+//            }
+//            System.out.println();
+//        }
+        String str = "2";
+        System.out.println(str.getBytes().length);
+        System.out.println("你好".getBytes().length);
 
-        List<List<Integer>> list = count(es, 0, -1, result);
-        System.out.println(list);
-
-        for(List<Integer> l:list){
-            for(Integer i:l){
-                System.out.print(es[i]+",");
-            }
-            System.out.println();
-        }
+        System.out.println("你好".length());
+        System.out.println("nihao".length());
     }
 
     public static List<List<Integer>> count(int[] es, int sum, int currIndex, int result){

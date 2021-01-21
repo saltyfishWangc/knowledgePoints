@@ -11,6 +11,8 @@ import java.lang.reflect.Proxy;
 public class JDKDynamicProxyTest {
 
     public static void main(String... args) {
+        // 开启保存生成的代理类class文件系统配置，默认是关闭
+        System.getProperties().setProperty("sun.misc.ProxyGenerator.saveGeneratedFiles", "true");
         // situation 1
         System.out.println("==============situation 1==============");
         AdminService target = new AdminServiceImpl();
